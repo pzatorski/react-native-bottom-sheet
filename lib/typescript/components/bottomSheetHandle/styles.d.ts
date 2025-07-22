@@ -1,6 +1,8 @@
-export declare const styles: {
+import { StyleSheet } from 'react-native';
+export declare const styles: StyleSheet.NamedStyles<any> | StyleSheet.NamedStyles<{
     container: {
         padding: number;
+        cursor: "grab";
     };
     indicator: {
         alignSelf: "center";
@@ -9,5 +11,5 @@ export declare const styles: {
         borderRadius: number;
         backgroundColor: string;
     };
-};
+}>;
 //# sourceMappingURL=styles.d.ts.map
